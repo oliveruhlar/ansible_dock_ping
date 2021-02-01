@@ -1,0 +1,6 @@
+- name: Pull ubuntu image
+  hosts: dockerhost
+  tasks:
+  - name: pull
+    docker_image:
+      name: ubuntu_con
